@@ -23,6 +23,8 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 """"""""""""""""""""""""""""""
+set nocompatible
+set backspace=indent,eol,start
 set encoding=utf-8
 set helplang=ja,en
 set number
