@@ -50,6 +50,7 @@ highlight lineNr term=underline ctermfg=11 guifg=Grey
 " setting color scheme
 let base16colorspace=256  " Access colors present in 256 colorspace
 set termguicolors
+colorscheme base16-default-dark
 
 " setting status bar
 let g:airline_theme='luna'
