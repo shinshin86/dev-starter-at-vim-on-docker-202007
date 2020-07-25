@@ -42,6 +42,10 @@ set background=dark
 set wildmenu
 set ruler
 set showmatch
+set clipboard+=unnamed
+
+" line number color
+highlight lineNr term=underline ctermfg=11 guifg=Grey
 
 " setting color scheme
 let base16colorspace=256  " Access colors present in 256 colorspace
@@ -49,3 +53,11 @@ set termguicolors
 
 " setting status bar
 let g:airline_theme='luna'
+
+" Emacs Move
+imap <C-a>  <Home>
+imap <C-e>  <End>
+imap <C-b>  <Left>
+imap <C-f>  <Right>
+imap <C-n>  <Down>
+imap <C-p>  <UP>
